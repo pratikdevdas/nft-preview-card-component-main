@@ -10,35 +10,34 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;600&display=swap');
+
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
     
     body{
       font-size: 18px;
+      font-family: 'Readex Pro', sans-serif;
       }
-    .center{
-      width: 1440px;
-      height: 700px;
-      background-color: hsl(217, 54%, 11%);
-    }
     .content{
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       border: 10px solid cadetblue;
-      background-color:color;
+      background-color: hsl(217, 54%, 11%);
     }
     img{
-      height: 300px;
-      width: 300px;
+      height: 320px;
+      width: 320px;
       border-radius: 10px;
     }
     p{
+      font-size: 1em;
     }
     .card{
       border-radius: 10px;
-      box-shadow: 0px 0px 65px 36px rgba(0,0,0,0.98);
+      box-shadow: 0px 0px 65px 36px rgba(0,0,0,0.50);
       margin: 85px 0 85px 0;
       padding: 15px;
       background-color:hsl(216, 50%, 16%);
@@ -46,10 +45,13 @@
     .header h3{
       color: white;
     }
+    .cp{
+      display: flex;
+      justify-content: space-between;
+    }
   </style>
 </head>
 <body>
-  <div class="center">
     <div class="content">
       <div class="card">
       <img class="img" src="images/image-equilibrium.jpg" alt="">
@@ -61,18 +63,20 @@
        <div class="description">
          <p> Our Equilibrium collection promotes <br> balance and calm.</p>
        </div> 
-        <div class="price">
-          0.041 ETH
-        </div>      
-        <div class="time">
-         3 days left
+       <div class="cp">
+
+         <div class="price">
+           0.041 ETH
+          </div>      
+          <div class="time">
+            3 days left
+          </div>
         </div>
         <div class="footer">
         Creation of Jules Wyvern
         </div>      
       </div>
     </div>
-  </div>
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
